@@ -1,3 +1,7 @@
-# stellahrotich.github.io
-#creating a github page
-#getting to work on this when i get time i promise
+Hey there!
+
+My name is Stellah Rotich,thanks for stoping by:This is a work in progress for my 
+#Code #Events #Projects #Learning #Tech and everything in my dreamer brain
+
+Stay tuned
+XOXO
