@@ -58,6 +58,16 @@ img {
      .card:hover {
          border-color: #1E90FF;
      }
+h3 {
+         font-family: "League Gothic", sans-serif;
+         font-style: normal;
+         font-weight: 400;
+     }
+.cardLink {
+         color: inherit;
+         text-decoration: none;
+     }
+
 
 
 
