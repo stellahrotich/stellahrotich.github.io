@@ -4,10 +4,10 @@ body {
 body {
   background-color: DeepSkyBlue;
   font-family: "Helvetica", sans-serif;
-  color: Purple;
+  color: Pink;
 }
 h1 {
-  color: CornSilk;
+  color: White;
   font-family: "Times New Roman", serif;
 }
 h2 {
@@ -42,6 +42,22 @@ nav ul li a {
 img {
   border-radius: 30px;
 }
+ .smallPics {
+         height: 60px;
+         border-radius: 10px;
+     }
+     .card {
+         width: 200px;
+         height: 200px;
+         border: 2px solid #F0FFFF;
+         border-radius: 10px;
+         box-sizing: border-box;
+         margin-top: 10px;
+         font-family: "Lato", sans-serif;
+     }
+     .card:hover {
+         border-color: #1E90FF;
+     }
 
 
 
