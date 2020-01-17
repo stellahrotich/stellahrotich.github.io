@@ -1,45 +1,50 @@
 <!DOCTYPE html>
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
 
-<head>
-	<title>Stellah Rotich</title>
-	<link rel="stylesheet" type="text/css" href="/css/main.css">
-</head>
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
 
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+</style>
 <body>
-		<nav>
-			<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about" target="_blank">About</a></li>
-	        	<li><a href="/projects" target="_blank">Projects</a></li>
-	        	<li><a href="https://drive.google.com/file/d/0B8-sqfoInMLrMDVybGlFMFFLMlk/view?usp=sharing" target="_blank">CV(Short version)</a></li>
-        		<li><a href="https://drive.google.com/file/d/0B8-sqfoInMLrZDFyQzkwczZUOGs/view?usp=sharing" target="_blank">Resume(Long Version)</a></li>
-        		<li><a href="http://technofunology.blogspot.co.za/" target="_blank">Technical Blog</a></li>
-        		<li><a href="http://amazife.blogspot.co.za/" target="_blank">Non Technical Blog</a></li>
-        	</ul>
-			</nav>
-			
-			<div class="container">
-			
-			
-    		<div class="blurb">
-		
-        		<h1>Hi there, </h1>
-        		<p>   Thanks for dropping by <a href="/about">here.</a>	
-					
-    		</div>
-			<img src="Images/Montserrat.jpg" alt="hi" class="resize center" />
-			
-			<p>I do get weirdly excited with interesting mail, so feel free to <strike>spam</strike> contact me ...</p>
-		</div>
 
-		
-		<p class="lead"><span class="pull-right">
-				        <ul class="social-media">
-				            <li><a href="https://www.linkedin.com/in/istellahrotich" alt="Linked In" target="_blank"><img src="Images/linkedin-icon.png" width="50px" height="50px" ></a></li>
-				            ></li>
-				        </ul>
-				    </span></p>
-		
+<h2>Responsive Navigation Bar with Icons</h2>
+<p>Try to resize the browser window to see the responsive effect.</p>
+
+<div class="navbar">
+  <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
+  <a href="#"><i class="fa fa-fw fa-search"></i> Search</a> 
+  <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a> 
+  <a href="#"><i class="fa fa-fw fa-user"></i> Login</a>
+</div>
+
 </body>
-</html>
+</html> 
