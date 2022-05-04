@@ -10,7 +10,7 @@ I am a software Engineer currently working as a Senior Business Analyst in the p
 *   🖥️  See my portfolio at [stellahrotich.github.io](http://stellahrotich.github.io)
 *   ✉️  You can contact me at [codestarlet@gmail.com](mailto:codestarlet@gmail.com)
 *   🚀  I'm currently working on [NRS](http://nairobiservices.go.ke)
-*   🧠  I'm learning C#, Data Structures, Algorithms and Deep Learning
+*   🧠  I'm learning Programming in C#, Data Structures, Algorithms and Deep Learning
 *   🤝  I'm open to collaborating on interesting software engineering projects
 *   ⚡  I run for fun and loves to read alot.....call me for some photography too
 
